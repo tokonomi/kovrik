@@ -1,0 +1,76 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+*{
+    box-sizing: border-box;
+    margin: 0!important;
+    padding: 0;
+}
+.logo-link-block{
+    position: fixed!important;
+    padding: 5px 0;
+    z-index: 99999;
+    background-color: #fff;
+    width: 100%;
+}
+.logo-link{
+    text-decoration: none;
+}
+
+.prod-title{
+    padding-top: 200px;
+}
+
+.prod-title p{
+    padding: 5px 0;
+}
+
+.product-info{
+    padding: 100px 30px;
+}
+
+.order-product p{
+    padding: 10px 0;
+}
+
+.order-product button{
+    margin-top: 15px;
+    width: 60%;
+    border-radius: 50px;
+}
+
+.price-btn{
+    width: 60%;
+    border-radius: 50px;
+    padding: 10px 0;
+}
+h5{
+    padding: 5px 0;
+}
+
+.price-grp{
+    width: 90%!important;
+    margin: 0 auto!important;
+}
+
+@media (max-width: 996px){
+    .product-info{
+        padding: 20px 0 20px 20px;
+    }
+}
+@media (max-width: 768px){
+    .prod-carousel{
+        position: inherit!important;
+    }
+    .prod-info-container{
+        position: inherit!important;
+    }
+    .product-info{
+        padding: 20px 0 20px 20px;
+    }
+    .price-grp{
+        width: 30%!important;
+    }
+    .order-product button{
+        width: 30%!important;
+    }
+}

@@ -1,0 +1,63 @@
+<div class="position-absolute top-0 start-50 translate-middle-x fs-4 logo-link-block text-center">
+    <a routerLink="" class="logo-link main-color">KOVRIK</a>
+</div>
+<div>
+    <div class="container-fluid vh-100">
+        <div class="row h-100 position-relative">
+            <div class="col-md-9 h-100 fixed-top prod-carousel">
+                <owl-carousel-o [options]="customOptions">
+                    <ng-template carouselSlide *ngFor="let img of currentProduct.images">
+                        <div [ngStyle]="{
+                            'height': '95vh',
+                            'background': 'url(assets/images/' + currentProduct.product + '/'+ img +'.jpg) center/cover'
+                        }"></div>
+                    </ng-template>
+                </owl-carousel-o>
+                
+            </div>
+            <div class="col-md-3 h-100 position-absolute top-0 end-0 prod-info-container">
+                <div class="container-fluid">
+                    <div class="vh-100">
+                        <div class="row text-center prod-title">
+                            <h1 class="fs-1">{{currentProduct.name | translate}}</h1>
+                            <p>{{'Delivery: within 3 month' | translate}}</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-4 text-center">
+                                    <h2>{{currentProduct.size | translate}}</h2>
+                                    <h5>{{'size' | translate | titlecase}}</h5>
+                            </div>
+                            <div class="col-4 text-center">
+                                    <h2>{{currentProduct.thickness | translate}}</h2>
+                                    <h5>{{'thickness' | translate | titlecase}}</h5>
+                            </div>
+                            <div class="col-4 text-center">
+                                    <h2>{{currentProduct.thickness | translate}}</h2>
+                                    <h5>{{'warp' | translate | titlecase}}</h5>
+                            </div>
+                        </div>
+                        <div class="row product-info">
+                            <h1>{{currentProduct.infoTitle | translate}}</h1>
+                            <ul>
+                                <li *ngFor="let item of currentProduct.carpetInfo">{{item | translate}}</li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <h5 class="fs-5 text-center">{{'price' | translate | titlecase}}</h5>
+                            <div class="btn-group price-grp" role="group" aria-label="Basic example">
+                                <button type="button" class="btn btn-primary price-btn">{{currentProduct.price}}$</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row vh-100 position-relative">
+                        <div class="order-product position-absolute top-50 translate-middle-y text-center">
+                            <h1 class="fs-3">{{'Order your' | translate | titlecase}} {{currentProduct.name}}</h1>
+                            <p>{{'Delivery: within 3 month' | translate}}</p>
+                            <a (click)="onCheckOut()"><button type="button" class="btn btn-primary">{{'Order' | translate | titlecase}}</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

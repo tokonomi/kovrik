@@ -1,0 +1,157 @@
+<div class="side-bar">
+    <mat-sidenav-container>
+        <mat-sidenav opened [(opened)] = opened  position="end">
+    
+            <div class="d-flexP">
+                <div class="d-flex back-btn" *ngIf="selectedLang" (click) = "selectedLang = !selectedLang">
+                    <i class="bi bi-arrow-left"></i>
+                    <p>{{'back' | translate | titlecase}}</p>
+                </div>
+                <div>
+                    <i (click) = 'opened = !opened' class="event-btn" class="bi bi-x-lg"></i>
+                </div>
+            </div>
+    
+            <div *ngIf="selectedLang" class="lang-section">
+                <mat-list class="c-list" *ngFor="let reg of languages; let i = index">
+                    <h2>{{reg.regionName}}</h2>
+                    <mat-list-item *ngFor="let cnt of languages[i].region"> 
+                        <div class="list-content">
+                            <p>{{cnt.country}}</p> 
+                            <small class="choose-lang" (click)="changeLang(cnt.value, cnt.country, cnt.lang)">{{cnt.lang}}</small>
+                        </div>
+                    </mat-list-item>
+                </mat-list>
+            </div>
+            <div *ngIf="!selectedLang">
+                <mat-list class="c-list c-list-menu">
+                    <a routerLink="cart"><mat-list-item>{{'cart' | translate | titlecase}}</mat-list-item></a>
+                    <a routerLink="products/shabargan"><mat-list-item>{{'silken and mild' | translate | titlecase}}</mat-list-item></a>
+                    <a routerLink="products/habibian-6la"><mat-list-item>{{'modern' | translate | titlecase}}</mat-list-item></a>
+                    <a routerLink="products/habibian-4la"><mat-list-item>{{'exclusive' | translate | titlecase}}</mat-list-item></a>
+                    <a routerLink="/find-us"><mat-list-item>{{'find us' | translate | titlecase}}</mat-list-item></a>
+                </mat-list>
+                <mat-list>
+                    <mat-list-item>
+                        <div class="lang-item">
+                            <div>
+                                <i class="bi bi-translate"></i>
+                            </div>
+                            <div class="current-lang">
+                                <p>{{currentCountry}}</p>
+                                <p class="lang" (click)="selectedLang = !selectedLang">{{currentLanguage}}</p>
+                            </div>
+                        </div>
+                    </mat-list-item>
+                </mat-list>
+            </div>
+        </mat-sidenav>
+        <mat-sidenav-content class="content-sec">
+            <div>
+                <mat-toolbar class="nav-bar fixxy">
+                        <div class="app-logo">
+                            <span><a routerLink="">KOVRIK</a></span>
+                            <a routerLink="/shop" class="fs-6 shop-link">{{'shop'| translate | titlecase}}</a>
+                        </div>
+                        <ul class="menu">
+                            <li (click)="openXl(content)"><i class="bi bi-search"></i></li>
+                            <li (click)="refresh()" class="cart"><a routerLink="/cart" class="position-relative"><i class="bi bi-cart"></i><span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" *ngIf="itemInCart > 0">{{itemInCart}}</span></a></li>
+                            <li *ngIf="!user"><a routerLink="/login">{{'sign in'| translate | titlecase}}</a></li>
+                            <li *ngIf="user" (click)="signOut()"><i class="bi bi-box-arrow-in-left"></i></li>
+                            <li (click)="opened = !opened" class="event-btn">{{'menu'| translate | titlecase}}</li>
+                        </ul>
+                </mat-toolbar>
+                <div>
+                    <div class="slider-content">
+                        <owl-carousel-o [options]="mainSlider"  (dragging)="isDragging = $event.dragging" >
+                            <ng-template carouselSlide *ngFor="let s of mainSliderData; let i = index" >
+                                <a [owlRouterLink]="['/product', s.href]" [stopLink]="isDragging" [queryParams]="{fixed: true}">
+                                    <div class="position-relative" [ngStyle]="{
+                                        'height': '885px',
+                                        'background': 'url(../../assets/images/furniture/' + s.images[1] + '.jpg) center/cover no-repeat'
+                                    }">
+                                        <div class="position-absolute top-0 start-50 translate-middle-x main-product-title">
+                                            <p class="main-color fs-3">{{s.title}}</p>
+                                        </div>  
+                                    </div>
+                                </a>
+                            </ng-template>  
+                        </owl-carousel-o>
+                    </div>
+                    <div class="best-sellers">
+                        <div>
+                            <p class="main-color cans-sec">{{'garbage cans' | titlecase | translate}}</p>
+                        </div>
+                        <owl-carousel-o [options]="cardCarousel"  (dragging)="isDragging = $event.dragging" >
+                              <ng-template *ngFor="let slide of cardsData;" carouselSlide >
+                                  <a [owlRouterLink]="['/product', slide.href]" [stopLink]="isDragging" class="cards-link">
+                                      <div class="cards-block">
+                                          <div [ngStyle]="{
+                                            'height': '441px',
+                                            'background': 'url(../../assets/images/utilities/' + slide.images[0] + '.jpg) center/contain no-repeat'
+                                        }"></div>
+                                        <div class="card-title">
+                                            <p>{{slide["card-title"]}}</p>
+                                        </div>
+                                      </div>
+                                  </a>
+                              </ng-template>
+                        </owl-carousel-o>
+                    </div>
+                    <div class="accessories">
+                        <div>
+                            <p class="main-color categorie-title">{{'categories' | translate | titlecase}}</p>
+                        </div>
+                        <mat-grid-list cols="2" rowHeight="450px" [gutterSize]="'20px'">
+                            <mat-grid-tile 
+                            *ngFor="let a of accessories"
+                            [colspan]="a.col"
+                            [rowspan]="a.row"
+                            [ngStyle]="{
+                                'background': 'url(../../../../assets/images/stuff/'+ a.categorieTitle +'.jpg) center/cover'
+                            }"
+                            >
+                                <a class="g-content" [routerLink]="['/categorie', a.categorieTitle]">
+                                    <div>
+                                        <p class="categorie-content-title">{{a.gridTitle}}</p>
+                                    </div>    
+                                </a>
+                            </mat-grid-tile>
+                        </mat-grid-list>
+                    </div>
+                    <ng-template #content let-modal>
+                        <div class="modal-header">
+                          <h4 class="modal-title fs-3">{{'search' | translate | titlecase}}</h4>
+                          <button type="button" class="btn btn-outline-dark" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <input type="text" [(ngModel)]="search" class="col-sm-10 search-input">
+                                <button class="col-sm-2 btn btn-outline-secondary search-btn" (click)="onSeacrh()">{{'search' | translate | titlecase}}</button>
+                            </div>
+                            <div class="row" *ngFor="let item of foundItems">
+                                <div 
+                                class="col-sm-2 search-img" 
+                                [ngStyle]="{
+                                    'background': 'url(./assets/images/'+ item.type +'/'+ item.images![0] +'.jpg) center/cover'
+                                }"></div>
+                                <div class="col fs-4">
+                                    <a (click)="modal.close('Close click')" [routerLink]="['/product', item.href]" class="main-color search-text">
+                                        <p>{{item.title}}</p>
+                                        <p>{{item.price | currency}}</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-outline-primary" (click)="modal.close('Close click')">Close</button>
+                        </div>
+                    </ng-template>
+                </div>
+            </div>
+        </mat-sidenav-content>
+    </mat-sidenav-container>
+</div>
+

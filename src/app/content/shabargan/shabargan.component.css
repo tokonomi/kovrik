@@ -1,0 +1,69 @@
+h2{
+    color: #fff;
+    text-shadow: 1px 1px 4px #000;
+    font-weight: 500!important;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+p{
+    padding: 0 0 5px 0;
+    background-color: #ffffff;
+    font-weight: 600!important;
+    color: #181b21;
+    font-size: 1.2em;
+    border-radius: 2px;
+}
+
+.product-img{
+    background: url(/assets/images/kov-1.jpg);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.product-title h2{
+    font-size: 3em;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+}
+.product-title{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.product-title a{
+    color: #fff;
+}
+
+.order-sec{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btn{
+    background-color: #fff;
+    font-weight: 500;
+    letter-spacing: normal;
+    width: 255px;
+    height: 45px;
+    border-radius: 55px;
+    border: 0;
+    outline: 0;
+    transition: all .5s ease-in;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #ffffff99;
+}
+@media (max-width: 992px){
+    .btn{
+        box-shadow: 0px 0px 5px #000;
+    }
+}
+

@@ -1,0 +1,56 @@
+.log-block{
+    width: 380px;
+}
+
+.log-form{
+    padding-top: 50px;
+}
+.log-input{
+    border-radius: 100px;
+}
+.log-btn{
+    border-radius: 100px;
+    width: 100%;
+}
+.or::before{
+    display: inline-block;
+    content: '';
+    width: 40%;
+    height: 1px;
+    background-color: #4b4d52;
+    margin-right: 5px;
+}
+.or::after{
+    display: inline-block;
+    content: '';
+    width: 40%;
+    height: 1px;
+    background-color: #4b4d52;
+    margin-left: 5px;
+}
+.or{
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.or-block{
+    margin: 40px 0;
+}
+
+.round-btn{
+    border-radius: 100px;
+}
+.logo-link-block{
+    padding: 5px 0;
+}
+.logo-link{
+    text-decoration: none;
+}
+
+
+@media (max-width: 390px){
+    .log-block{
+        width: 100%;
+    }
+}

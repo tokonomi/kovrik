@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "ecom-b48f2": {
+      "hosting": {
+        "kovrikApp": [
+          "ecom-b48f2"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "ecom-b48f2"
+  }
+}

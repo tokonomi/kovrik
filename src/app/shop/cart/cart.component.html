@@ -1,0 +1,49 @@
+<div class="container cart-container">
+    <div class="position-absolute top-0 start-50 translate-middle-x fs-4 logo-link-block">
+        <a routerLink="/shop" class="logo-link main-color back-link"><i class="bi bi-arrow-left-square"></i></a>
+        <a routerLink="" class="logo-link main-color">KOVRIK</a>
+    </div>
+    <h1 class="fs-2">{{'Cart' | translate | titlecase}}</h1>
+    <div class="empty" *ngIf="items.length < 1">
+        <h4>{{'Your cart is empty' | translate |titlecase}}</h4>
+        <a routerLink="/shop" class="link-btn"><button type="button" class="btn btn-outline-primary">{{'continue shopping' | titlecase | translate}}</button></a>
+        <a routerLink="/login" class="link-btn" *ngIf="!user"><button type="button" class="btn btn-primary">{{'sign in' | titlecase | translate}}</button></a>
+    </div>
+    <ng-container *ngIf="items.length > 0">
+        <div class="row cart-items" >
+            <div class="col-md-7 prices">
+                <div class="row item-info" *ngFor="let item of items; let i = index">
+                    <img [src]="'assets/images/'+ item.type +'/' + item.images[0] + '.jpg'" class="img-thumbnail col-2" alt=" ">
+                    <div class="col-6">
+                        <div class="row">
+                            <p>{{item.title}}</p>
+                        </div>
+                        <div class="row quantity">
+                            <div class="col-sm-5 text-center qty-text"><p>{{'quantity' | translate | titlecase}}: </p><input class="qty" type="number" [value]="item.qty" (blur)="validateInput($event, i)"></div>
+                            <div class="col-sm-5 qty-btn"><button type="button" class="btn-sm btn btn-outline-secondary" (click)="onDelete(i)">{{'remove' | translate | titlecase}}</button></div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <p>${{item.price}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="card">
+                    <div class="card-body">
+                      <h2>{{'order summary' | translate | titlecase}}</h2>
+                      <p class="card-text">
+                          {{'shipping calculated at checkout' | translate | titlecase}}
+                      </p>
+                      <p class="fs-4 card-text">
+                        {{'subtotal' | translate | titlecase}}: {{total | currency}}
+                     </p>    
+                      <div class="text-center">
+                        <a class="btn btn-primary text-center check-btn" (click)="onCheckOut()">{{'checkout' | translate | titlecase}}</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ng-container> 
+</div>

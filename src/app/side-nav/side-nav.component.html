@@ -1,0 +1,81 @@
+<div class="side-bar">
+    <mat-sidenav-container>
+        <mat-sidenav opened [(opened)] = opened  position="end">
+    
+            <div class="d-flexP">
+                <div class="d-flex back-btn" *ngIf="selectedLang" (click) = "selectedLang = !selectedLang">
+                    <i class="bi bi-arrow-left"></i>
+                    <p>{{'back' | translate | titlecase}}</p>
+                </div>
+                <div>
+                    <i (click) = 'opened = !opened' class="event-btn" class="bi bi-x-lg"></i>
+                </div>
+            </div>
+    
+            <div *ngIf="selectedLang" class="lang-section">
+                <mat-list class="c-list" *ngFor="let reg of languages; let i = index">
+                    <h2>{{reg.regionName}}</h2>
+                    <mat-list-item *ngFor="let cnt of languages[i].region"> 
+                        <div class="list-content">
+                            <p>{{cnt.country}}</p> 
+                            <small class="choose-lang" (click)="changeLang(cnt.value, cnt.country, cnt.lang)">{{cnt.lang}}</small>
+                        </div>
+                    </mat-list-item>
+                </mat-list>
+            </div>
+            <div *ngIf="!selectedLang">
+                <mat-list class="c-list c-list-menu">
+                    <a routerLink="cart"><mat-list-item>{{'cart' | translate | titlecase}}</mat-list-item></a>
+                    <a routerLink="products/shabargan"><mat-list-item>{{'silken and mild' | translate | titlecase}}</mat-list-item></a>
+                    <a routerLink="products/habibian-6la"><mat-list-item>{{'modern' | translate | titlecase}}</mat-list-item></a>
+                    <a routerLink="products/habibian-4la"><mat-list-item>{{'exclusive' | translate | titlecase}}</mat-list-item></a>
+                    <a routerLink="find-us"><mat-list-item>{{'find us' | translate | titlecase}}</mat-list-item></a>
+                </mat-list>
+                <mat-list>
+                    <mat-list-item>
+                        <div class="lang-item">
+                            <div>
+                                <i class="bi bi-translate"></i>
+                            </div>
+                            <div class="current-lang">
+                                <p>{{currentCountry}}</p>
+                                <p class="lang" (click)="selectedLang = !selectedLang">{{currentLanguage}}</p>
+                            </div>
+                        </div>
+                    </mat-list-item>
+                </mat-list>
+            </div>
+        </mat-sidenav>
+        <mat-sidenav-content class="content-sec">
+            <div>
+                <mat-toolbar class="nav-bar fixxy">
+                        <div class="app-logo">
+                            <span><a routerLink="">KOVRIK</a></span>
+                        </div>
+                        <ul class="products">
+                            <li *ngFor="let p of prods">
+                                <a [routerLink]="p.href">
+                                    {{p.name}}
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="menu">
+                            <li><a routerLink="/shop">{{'shop'| translate | titlecase}}</a></li>
+                            <li *ngIf="!user"><a routerLink="/login">{{'sign in'| translate | titlecase}}</a></li>
+                            <li *ngIf="user" (click)="signOut()"><i class="bi bi-box-arrow-in-left"></i></li>
+                            <li (click)="opened = !opened" class="event-btn">{{'menu'| translate | titlecase}}</li>
+                        </ul>
+                </mat-toolbar>
+                <div class="products-content-small">
+                    <app-shabargan></app-shabargan>
+                    <app-habibian6la></app-habibian6la>
+                    <app-habibian4la></app-habibian4la>
+                </div>
+                <main [@routeAnimations]="prepareRoute(outlet)" class="content products-content-large">
+                    <router-outlet #outlet="outlet"></router-outlet>
+                </main>
+            </div>
+        </mat-sidenav-content>
+    </mat-sidenav-container>
+</div>
+

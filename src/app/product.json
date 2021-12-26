@@ -1,0 +1,239 @@
+{
+    "products": [
+        {
+            "title": "Dining room Seating group Vabastien made of beech with corner bench",
+            "href": "dining-room-beech",
+            "images": ["dining0", "dining1", "dining2", "dining3", "dining4", "dining5"]
+        },
+        {
+            "title": "Table group Escoba made of acacia solid wood with tree edge (two-piece)",
+            "href": "table-group-acacia",
+            "images": ["escoba0", "escoba1", "escoba2", "escoba3", "escoba4", "escoba5"]
+        }
+    ],
+    "cards-products": [
+        {
+            "card-title": "Öko Duo Plus L",
+            "href": "hailo-trash-can",
+            "images": ["hailo0", "hailo1", "hailo2", "hailo3"]
+        },
+        {
+            "card-title": "Big Box Swing L",
+            "href": "hailo-black",
+            "images": ["hailo-black0", "hailo-black1", "hailo-black2", "hailo-black3"]
+        },
+        {
+            "card-title": "ÖKOSAMMLER 170",
+            "href": "wesco-waste",
+            "images": ["wesco0"],
+            "title": "Wesco Waste Collector »ÖKOSAMMLER 170«"
+        }
+    ],
+    "categories": [
+        {   
+            "gridTitle": "cooking set",
+            "categorieTitle": "cooking-set",
+            "title": "title1",
+            "col": 2, 
+            "row": 1, 
+            "color": "lightblue"},
+        {
+            "gridTitle": "dining room",
+            "categorieTitle": "dining-room",
+            "title": "title2", 
+            "col": 1,
+            "row": 1,
+            "color": "lightgreen"},
+        {
+            "gridTitle": "living room",
+            "categorieTitle": "living-room",
+            "title": "title3",
+             "col": 1,
+             "row": 1,
+             "color": "#DDBDF1"},
+        {
+            "gridTitle": "kitchen",
+            "categorieTitle": "kitchen",
+            "title": "title4",
+             "col": 2,
+             "row": 1,
+             "color": "lightblue"}
+        
+    ],
+    "cooking-set": [
+        {
+            "ref": "cooking",
+            "title": "WOLL cooking cutlery set »Cook it«",
+            "href": "woll-cutlery-set",
+            "imgName": "woll0",
+            "bestSeller": true,
+            "price":"39.90"
+        },
+        {
+            "ref": "cooking",
+            "title": "PINTINOX cutlery set »Pinti Chalet«",
+            "href": "pintinox-chalet-cutlery-set",
+            "imgName": "woll0",
+            "bestSeller": false,
+            "price":"29.90"
+        },
+        {
+            "ref": "cooking",
+            "title": "Twin knife block »Gourmet«",
+            "href": "twin-knife-block",
+            "imgName": "twin0",
+            "bestSeller": true,
+            "price":"229.90"
+        },
+        {
+            "ref": "cooking",
+            "title": "PINTINOX cooking cutlery set »Astra«",
+            "href": "pintinox-astra-cutlery-set",
+            "imgName": "pintinox-astra0",
+            "bestSeller": true,
+            "price":"34.90"
+        },
+        {
+            "ref": "cooking",
+            "title": "PINTINOX Kochbesteck-Set »Professional«",
+            "href": "pintinox-professional-cutlery-set",
+            "imgName": "pintinox-professional0",
+            "bestSeller": false,
+            "price":"39.90"
+        }
+    ],
+    "dining-room": [
+        {
+            "ref": "dining-room",
+            "title": "Sustainable Home affaire dining chair »Liao«",
+            "href": "affaire-dining-chair",
+            "imgName": "liao0",
+            "bestSeller": false,
+            "price":"209.90"
+        },
+        {
+            "ref": "dining-room",
+            "title": "INOSIGN Lowboard, width 180 cm, standing and hanging",
+            "href": "inosign-lowboard",
+            "imgName": "inosign0",
+            "bestSeller": true,
+            "price":"129.99"
+        },
+        {
+            "ref": "dining-room",
+            "title": "Woltra Sideboard »Ribe«, width 130 cm",
+            "href": "woltra-sideboard",
+            "imgName": "ribe0",
+            "bestSeller": true,
+            "price":"299.90"
+        },
+        {
+            "ref": "dining-room",
+            "title": "Home affaire rattan chair »Papasansessel«",
+            "href": "papasansessel-chair",
+            "imgName": "papasansessel0",
+            "bestSeller": true,
+            "price":"147.90"
+        },
+        {
+            "ref": "dining-room",
+            "title": "Sustainable ATLANTIC home collection Relaxation lounger",
+            "href": "atlantic-lounger",
+            "imgName": "atlantic0",
+            "bestSeller": false,
+            "price":"219.90"
+        }
+    ],
+    "living-room": [
+        {
+            "ref": "living-room",
+            "title": "Home affaire Ecksofa »Rice«, incl. Hocker, mit Federkern",
+            "href": "ecksofa-rice",
+            "imgName": "rice0",
+            "bestSeller": true,
+            "price":"1019.90"
+        },
+        {
+            "ref": "living-room",
+            "title": "IPlaces of Style Ecksofa, Ottomane links oder rechts montierbar",
+            "href": "ecksofa-iplace",
+            "imgName": "ecksofe0",
+            "bestSeller": false,
+            "price":"1199.99"
+        },
+        {
+            "ref": "living-room",
+            "title": "my home Gardine »Dimona«",
+            "href": "dimona-gardine",
+            "imgName": "dimona0",
+            "bestSeller": false,
+            "price":"59.90"
+        },
+        {
+            "ref": "living-room",
+            "title": "my home Verdunkelungsvorhang »Solana«",
+            "href": "solana-gardine",
+            "imgName": "solana0",
+            "bestSeller": true,
+            "price":"59.90"
+        },
+        {
+            "ref": "living-room",
+            "title": "Nova Via Big-Sofa, wahlweise mit Kaltschaum (140kg Belastung/Sitz) und AquaClean-Stoff für leichte Reinigung mit Wasser",
+            "href": "nova-sofa",
+            "imgName": "nova0",
+            "bestSeller": true,
+            "price":"2439.90"
+        },
+        {
+            "ref": "living-room",
+            "title": "Nova Via Ecksofa »Nikita«, wahlweise mit Kaltschaum (140kg Belastung/Sitz)",
+            "href": "nova-nikita-sofa",
+            "imgName": "nikita0",
+            "bestSeller": false,
+            "price":"1362.90"
+        }
+    ],
+    "kitchen": [
+        {
+            "ref": "kitchen",
+            "title": "OPTIFIT kitchenette »Iver«",
+            "href": "iver",
+            "imgName": "iver0",
+            "bestSeller": false,
+            "price":"2299.90"
+        },
+        {
+            "ref": "kitchen",
+            "title": "OPTIFIT kitchenette »Empty«",
+            "href": "empty",
+            "imgName": "empty0",
+            "bestSeller": true,
+            "price":"1799.99"
+        },
+        {
+            "ref": "kitchen",
+            "title": "Home affaire Buffet »Bigge«",
+            "href": "bigge",
+            "imgName": "bigge0",
+            "bestSeller": true,
+            "price":"549.90"
+        },
+        {
+            "ref": "kitchen",
+            "title": "Menke kitchen kitchenette »White Classic«",
+            "href": "white-classic",
+            "imgName": "white-classic0",
+            "bestSeller": false,
+            "price":"1299.90"
+        },
+        {
+            "ref": "kitchen",
+            "title": "wiho kitchen kitchen set »Chicago«",
+            "href": "chicago",
+            "imgName": "chicago0",
+            "bestSeller": true,
+            "price":"1099.90"
+        }
+    ]
+}

@@ -1,0 +1,1029 @@
+{
+    "products": [
+        {
+            "type": ["furniture"],
+            "id": 1,
+            "href": "dining-room-beech",
+            "images": ["dining0", "dining1", "dining2", "dining3", "dining4", "dining5"],
+            "title": "Dining room Seating group Vabastien made of beech with corner bench",
+            "titleSearch": "Dining room Seating group Vabastien made of beech with corner bench",
+            "price": "1439.00",
+            "qty": 1,
+            "description": [
+                {
+                    "title": "Dining room seating area Vabastien",
+                    "prop": [
+                        "Made of solid beech wood, woven fabric and veneered chipboard",
+                        "The set consists of a corner bench, a table and two chairs",
+                        "High seating comfort",
+                        "Extendable by 40 cm, from 120 to 160 cm",
+                        "186 cm wide, 87 cm high, 146 cm deep"
+                    ]
+                },
+                {
+                    "title": "Corner bench",
+                    "prop": [
+                        "Space-saving angle shape with corner shelf",
+                        "Dimensions: WxHxD: 186x88,5x146 cm",
+                        "Load capacity up to 200 kg",
+                        "Seat height: 47 cm",
+                        "Seat monochrome grey-brown, backrest grey-brown-beige checkered",
+                        "Leg can be mounted on both sides",
+                        "Seat width 80 and 120 cm"
+                    ]
+                },
+                {
+                    "title": "Chair",
+                    "prop": [
+                        "With two chairs",
+                        "Dimensions: WxHxD: 45x99x50 cm",
+                        "Four-legged frame solidly reinforced near the ground",
+                        "Seat width: 45 cm",
+                        "Made entirely of solid wood"
+                    ]
+                },
+                {
+                    "title": "Table",
+                    "prop": [
+                        "Table top veneered",
+                        "Stable four-legged frame made of solid wood",
+                        "Extendable from 120 to 160 cm by an insert of 40 cm",
+                        "Distance between the table legs on the long side approx. 96 cm",
+                        "Dimensions (WxHxD): 120/160x75x80 cm"
+                    ]
+                }
+            ],
+            "some": "With a reference durability of 34,000 abrasion tours to Martindale"
+        },
+        {
+            "type": ["furniture"],
+            "id": 2,
+            "href": "table-group-acacia",
+            "images": ["escoba0", "escoba1", "escoba2", "escoba3", "escoba4", "escoba5"],
+            "title": "Table group Escoba made of acacia solid wood with tree edge (two-piece)",
+            "titleSearch": "Table group Escoba made of acacia solid wood with tree edge (two-piece)",
+            "price": "809.00",
+            "qty": 1,
+            "description": [
+                {
+                    "title": "Table group Escoba",
+                    "prop": [
+                        "Rustic table group in dark brown and black",
+                        "Made of acacia solid wood and iron",
+                        "The set consists of a table and a bench",
+                        "Wood surface oiled, base in black matt powder-coated",
+                        "Table top thickness approx. 3-3.5 cm",
+                        "Characteristic surface with intentional irregularities, such as .B knotholes or cracks",
+                        "Unique pieces of furniture",
+                        "Very stable and durable quality",
+                        "A purchase for life"
+                    ]
+                },
+                {
+                    "title": "Bank",
+                    "prop": [
+                        "Dimensions: WxHxD: 180/200x45x38 cm",
+                        "Seat height is 45 cm",
+                        "load capacity: 300 kg",
+                        "Distance between frames: approx. 135cm"
+                    ]
+                },
+                {
+                    "title": "Table",
+                    "prop": [
+                        "Dimensions: WxHxD: 180/200x77x90/100 cm",
+                        "Absolutely stable iron frame (10x5 cm)",
+                        "Load capacity up to 100 kg"
+                    ]
+                },
+                {
+                    "title": "Variants",
+                    "prop": [
+                        "001: Width: 180 / Depth: 90 / with three seats",
+                        "002: Width: 200 / Depth: 100 / with four seats"
+                    ]
+                }
+            ],
+            "some": "Made of acacia solid wood and iron"
+        },
+        {
+            "type": ["utilities"],
+            "id": 3,
+            "href": "hailo-trash-can",
+            "images": ["hailo0", "hailo1", "hailo2", "hailo3"],
+            "title": "Hailo trash can »Öko Duo Plus L«, silver",
+            "titleSearch": "Hailo trash can »Öko Duo Plus L«, silver",
+            "price": "84.99",
+            "qty": 1,
+            "description": [
+                {
+                    "title": "",
+                    "prop": [
+                        "The »Öko Duo Plus L« pedal trash can is perfect for use in the home or office. The pedal trash can has a soft-close lid that ensures silent closing of the lid. It has a large opening angle for easy filling and 2 inner buckets with a capacity of 9 and 17 litres for waste separation. The ergonomically wide foot pedal with internal, hygienic pedal mechanism ensures ease of use. In addition, the inner buckets are equipped with practical handles."
+
+                    ]
+                },
+                {
+                    "title": "Hailo trash can »Öko Duo Plus L«, silver",
+                    "prop": [
+                        "Pedal trash can with large opening angle",
+                        "Including color sticker for waste type identification",
+                        "Capacity: 17 and 9 liters",
+                        "Damped soft-close mechanism",
+                        "Extra wide foot pedal"
+                    ]
+                }
+            ],
+            "some": "Made in Germany"
+        },
+        {
+            "type": ["utilities"],
+            "id": 4,
+            "href": "hailo-black",
+            "images": ["hailo-black0", "hailo-black1", "hailo-black2", "hailo-black3"],
+            "title": "Hailo trash can »Big-Box Swing L«, black, capacity approx. 35 litres",
+            "titleSearch": "Hailo trash can »Big-Box Swing L«, black, capacity approx. 35 litres",
+            "price": "69.99",
+            "qty": 1,
+            "description": [
+                {
+                    "title": "",
+                    "prop": [
+                        "The »Big Box Swing L« waste collector from Hailo is a modern and attractive companion in which waste disposal becomes a minor matter. It has a clamping frame for attaching garbage bags and has a capacity of 35 liters. It is equipped with a two-piece self-closing swinging lid, which can be fixed for a permanent opening. Stable with anti-slip feet and shapely recessed recess, the trash can becomes a dispensable accessory in the home. Whether in the kitchen, in the office or in another area, the trash can »Big Box Swing L« finds its place almost everywhere."
+                    ]
+                },
+                {
+                    "title": "Hailo trash can »Big-Box Swing L«, black, capacity approx. 35 litres",
+                    "prop": [
+                        "Large-capacity waste bins",
+                        "With garbage bag clamping frame",
+                        "4 anti-slip feet",
+                        "Capacity approx. 35 litres",
+                        "Self-closing swing lid"
+                    ]
+                }
+            ],
+            "some": "Made in Germany"
+        },
+        {
+            "type": ["utilities"],
+            "id": 5,
+            "href": "wesco-waste",
+            "images": ["wesco0"],
+            "title": "Hailo trash can »Big-Box Swing L«, black, capacity approx. 35 litres",
+            "titleSearch": "Hailo trash can »Big-Box Swing L«, black, capacity approx. 35 litres",
+            "price": "69.99",
+            "qty": 1,
+            "description": [
+                {
+                    "title": "Wesco Waste Collector »ÖKOSAMMLER 170«",
+                    "prop": [
+                        "Double waste collector with two inserts. Fuselage made of powder-coated sheet steel. Lid, ring and kick made of plastic. Dimensions"
+                    ]
+                }
+            ],
+            "some": "Made in Germany"
+        },
+        {
+            "titleSearch": "NONE",
+            "title": "cooking sets",
+            "href": "cooking-set",
+            "sets": ["cutlery set", "knife set"],
+            "cutlery set": [
+                {
+                    "ref": "cooking",
+                    "title": "WOLL cooking cutlery set »Cook it«,",
+                    "href": "woll-cutlery-set",
+                    "imgName": "woll0",
+                    "bestSeller": true,
+                    "price":"39.90"
+                },
+                {
+                    "ref": "cooking",
+                    "title": "PINTINOX cutlery set »Pinti Chalet«",
+                    "href": "pintinox-chalet-cutlery-set",
+                    "imgName": "pintinox0",
+                    "bestSeller": false,
+                    "price":"29.90"
+                },
+                {
+                    "ref": "cooking",
+                    "title": "PINTINOX cooking cutlery set »Astra«",
+                    "href": "pintinox-astra-cutlery-set",
+                    "imgName": "pintinox-astra0",
+                    "bestSeller": true,
+                    "price":"34.90"
+                },
+                {
+                    "ref": "cooking",
+                    "title": "PINTINOX cooking cutlery set »Professional«",
+                    "href": "pintinox-professional-cutlery-set",
+                    "imgName": "pintinox-professional0",
+                    "bestSeller": false,
+                    "price":"39.90"
+                }
+            ],
+            "knife set": [
+                {
+                    "ref": "cooking",
+                    "title": "Twin knife block »Gourmet«",
+                    "href": "twin-knife-block",
+                    "imgName": "twin0",
+                    "bestSeller": true,
+                    "price":"229.90"
+                }
+            ] 
+        },
+        {
+            "titleSearch": "NONE",
+            "title": "dining room",
+            "href": "dining-room",
+            "sets": ["dining room", "armchair"],
+            "dining room": [
+                {
+                    "ref": "dining-room",
+                    "title": "Sustainable Home affaire dining chair »Liao«",
+                    "href": "affaire-dining-chair",
+                    "imgName": "liao0",
+                    "bestSeller": false,
+                    "price":"209.90"
+                },
+                {
+                    "ref": "dining-room",
+                    "title": "INOSIGN Lowboard, width 180 cm, standing and hanging",
+                    "href": "inosign-lowboard",
+                    "imgName": "inosign0",
+                    "bestSeller": true,
+                    "price":"129.99"
+                },
+                {
+                    "ref": "dining-room",
+                    "title": "Woltra Sideboard »Ribe«, width 130 cm",
+                    "href": "woltra-sideboard",
+                    "imgName": "ribe0",
+                    "bestSeller": true,
+                    "price":"299.90"
+                },
+                {
+                    "ref": "dining-room",
+                    "title": "Home affaire rattan chair »Papasansessel«",
+                    "href": "papasansessel-chair",
+                    "imgName": "papasansessel0",
+                    "bestSeller": true,
+                    "price":"147.90"
+                }],
+            "armchair":[
+                {
+                    "ref": "dining-room",
+                    "title": "Sustainable ATLANTIC home collection Relaxation lounger",
+                    "href": "atlantic-lounger",
+                    "imgName": "atlantic0",
+                    "bestSeller": false,
+                    "price":"219.90"
+                }
+            ]
+
+        },
+        {
+            "titleSearch": "NONE",
+            "title": "living room",
+            "href": "living-room",
+            "sets": ["sofa", "gardine"],
+            "sofa":[
+                {
+                    "ref": "living-room",
+                    "title": "Home affaire Ecksofa »Rice«, incl. Hocker, mit Federkern",
+                    "href": "ecksofa-rice",
+                    "imgName": "rice0",
+                    "bestSeller": true,
+                    "price":"1019.90"
+                },
+                {
+                    "ref": "living-room",
+                    "title": "IPlaces of Style Ecksofa, Ottomane links oder rechts montierbar",
+                    "href": "ecksofa-iplace",
+                    "imgName": "ecksofe0",
+                    "bestSeller": false,
+                    "price":"1199.99"
+                },
+                {
+                    "ref": "living-room",
+                    "title": "Nova Via Big-Sofa, wahlweise mit Kaltschaum (140kg Belastung/Sitz) und AquaClean-Stoff für leichte Reinigung mit Wasser",
+                    "href": "nova-sofa",
+                    "imgName": "nova0",
+                    "bestSeller": true,
+                    "price":"2439.90"
+                },
+                {
+                    "ref": "living-room",
+                    "title": "Nova Via Ecksofa »Nikita«, wahlweise mit Kaltschaum (140kg Belastung/Sitz)",
+                    "href": "nova-nikita-sofa",
+                    "imgName": "nikita0",
+                    "bestSeller": true,
+                    "price":"1362.90"
+                }
+            ],
+            "gardine": [
+                {
+                    "ref": "living-room",
+                    "title": "my home Gardine »Dimona«",
+                    "href": "dimona-gardine",
+                    "imgName": "dimona0",
+                    "bestSeller": false,
+                    "price":"59.90"
+                },
+                {
+                    "ref": "living-room",
+                    "title": "my home Verdunkelungsvorhang »Solana«",
+                    "href": "solana-gardine",
+                    "imgName": "solana0",
+                    "bestSeller": true,
+                    "price":"59.90"
+                }
+            ]
+        },
+        {
+            "titleSearch": "NONE",
+            "title": "kitchen",
+            "href": "kitchen",
+            "sets": ["kitchen furniture"],
+            "kitchen furniture": [
+                {
+                    "ref": "kitchen",
+                    "title": "OPTIFIT kitchenette »Iver«",
+                    "href": "iver",
+                    "imgName": "iver0",
+                    "bestSeller": false,
+                    "price":"2299.90"
+                },
+                {
+                    "ref": "kitchen",
+                    "title": "OPTIFIT kitchenette »Empty«",
+                    "href": "empty",
+                    "imgName": "empty0",
+                    "bestSeller": true,
+                    "price":"1799.99"
+                },
+                {
+                    "ref": "kitchen",
+                    "title": "Home affaire Buffet »Bigge«",
+                    "href": "bigge",
+                    "imgName": "bigge0",
+                    "bestSeller": true,
+                    "price":"549.90"
+                },
+                {
+                    "ref": "kitchen",
+                    "title": "Menke kitchen kitchenette »White Classic«",
+                    "href": "white-classic",
+                    "imgName": "white-classic0",
+                    "bestSeller": false,
+                    "price":"1299.90"
+                },
+                {
+                    "ref": "kitchen",
+                    "title": "wiho kitchen kitchen set »Chicago«",
+                    "href": "chicago",
+                    "imgName": "chicago0",
+                    "bestSeller": true,
+                    "price":"1099.90"
+                }
+            ]
+        },
+        {
+            "type": ["cooking"],
+            "id": 6,
+            "href": "woll-cutlery-set",
+            "images": ["woll0","woll1","woll2"],
+            "title": "WOLL cooking cutlery set »Cook it«",
+            "titleSearch": "WOLL cooking cutlery set »Cook it«",
+            "price": "39.90",
+            "qty": 1,
+            "description": [
+                {
+                    "title": "WOLL cooking cutlery set »Cook it«",
+                    "prop": [
+                        "Practical kitchen aids for daily use",
+                        "Made of high-quality plastic and silicone",
+                        "Heat resistant up to 260°C",
+                        "With glass fiber reinforced core",
+                        "Set: 1 jumbo turner each, ladle"
+                    ]
+                },
+                {
+                    "title": "",
+                    "prop": [
+                        "The practical kitchen helpers of the »Cook it« series made of high-quality plastic and silicone should not be missing in any kitchen. They have a glass fibre reinforced core and are heat resistant up to 260°C. Further advantages are the silicone-framed Easy handle and the thin flexible silicone lip. Dishwasher-safe.The kitchen helper set from WOLL consists of:1 x Jumbo pan turner, 35 cm long, 11.5 cm wide, with cutting function1 x ladle, 32 cm long, 10 cm wide"
+                    ]
+                }
+            ],
+            "some": "Made in Germany"
+        },
+        {
+            "type": ["cooking"],
+            "id": 7,
+            "href": "pintinox-chalet-cutlery-set",
+            "images": ["pintinox0","pintinox1","pintinox2","pintinox3","pintinox4","pintinox5","pintinox6","pintinox7"],
+            "title": "PINTINOX cutlery set »Pinti Chalet«",
+            "titleSearch": "PINTINOX cutlery set »Pinti Chalet«",
+            "price": "29.90",
+            "qty": 1,
+            "description": [
+                {
+                    "title": "PINTINOX cutlery set »Pinti Chalet«, (set, 7 pcs.), plastic, handle in wood look, dishwasher safe",
+                    "prop": [
+                        "7 pcs. cooking cutlery set of the Pinti Chalet series consisting of soup creator, foam spoon, roast turner, sauce spoon, spaghetti spoon, closed roast turner and a whet",
+                        "The cooking cutlery set is made of plastic with a handle in wood look and is dishwasher safe",
+                        "The foam spoon, the roast turner, the sauce spoon and the ladle have a length of 31cm, the ladle and spaghetti spoon a length of 29.5cm",
+                        "The support bracket prevents your work surface from dripping full.",
+                        "The cooking utensils are the ideal equipment for your kitchen. With this set you are perfectly equipped. Likewise, this set is a wonderful gift for the new or first kitchen equipment"
+                    ]
+                },
+                {
+                    "title": "",
+                    "prop": [
+                        "The Pinti Chalet series convinces with its design-oriented kitchen aids. The black kitchen helpers with handle in wood look look do well in any kitchen and are an absolute eye-catcher. The support bracket prevents your kitchen countertop from getting dirty. They are best suited for pans with non-stick coating.The Pinti brand from Italy stands for high-quality product quality in all areas, whether restaurateur, hobby chef or for everyday use in the kitchen."
+                    ]
+                }
+            ],
+            "some": "Made in Germany"
+        },
+        {
+            "type": ["cooking"],
+            "id": 8,
+            "href": "twin-knife-block",
+            "images": ["twin0"],
+            "title": "Twin knife block »Gourmet«, 7 pcs., self-sharpening",
+            "titleSearch": "Twin knife block »Gourmet«, 7 pcs., self-sharpening",
+            "price": "229.90",
+            "qty": 1,
+            "description": [
+                {
+                    "title": "Twin knife block »Gourmet«, 7 pcs., self-sharpening",
+                    "prop": [
+                        "ZWILLING SharpBlock in black with HIS technology",
+                        "No additional sharpening by hand necessary",
+                        "Pockets and grinding angle ideal for the knives of the ZWILLING Gourmet series",
+                        "Always ready for use, sharp knives",
+                        "Set: 1 knife block, 5 knives, 1 scissors"
+                    ]
+                },
+                {
+                    "title": "",
+                    "prop": [
+                        "The ZWILLING SharpBlock with KIS technology ensures the optimal sharpness of your knives. The self-sharpening knife block completely relieves you of grinding by hand and you do not have to worry about the right time for resharpening. Two ceramic grinding stones have been integrated into the pockets for the knives with smooth cutting edges (picking and garning knives, meat and cooking knives), which sharpen the respective cutting edge when the knives are pulled out or inserted into them – without any effort required."
+                    ]
+                }
+            ],
+            "some": "Made in Germany"
+        },
+        {
+            "type": ["cooking"],
+            "id": 9,
+            "href": "pintinox-astra-cutlery-set",
+            "images": ["pintinox-astra0","pintinox-astra1","pintinox-astra2"],
+            "titleSearch": "PINTINOX cooking cutlery set »Astra«, (set, 2 pcs.), insert set, (sauce spoon, serving spoon), stainless steel 18/10",
+            "title": "PINTINOX cooking cutlery set »Astra«, (set, 2 pcs.), insert set, (sauce spoon, serving spoon), stainless steel 18/10",
+            "price": "34.90",
+            "qty": 1,
+            "description": [
+                {
+                    "title": "PINTINOX cooking cutlery set »Astra«, (set, 2 pcs.), insert set, (sauce spoon, serving spoon), stainless steel 18/10",
+                    "prop": [
+                        "2 pcs. Set of the Astra series consisting of a sauce spoon and a serving spoon",
+                        "The shelf set is made of stainless steel 18/10 and dishwasher safe",
+                        "Due to the hanging hook, both spoons can be conveniently hung on the edge of the pot or in the kitchen",
+                        "The serving spoon has a length of 30cm and the sauce spoon of 30cm",
+                        "The set is good for serving and portioning and also looks noble. The serving spoon is an all-round talent suitable for portioning and serving vegetables, pasta or desserts. The sauce spoon simply portions your soup or sauce."
+                    ]
+                },
+                {
+                    "title": "",
+                    "prop": [
+                        "The Astra series convinces with its large selection of kitchen aids for every need and occasion. The elegant set consists of a sauce spoon and a serving spoon made of 18/10 stainless steel. The spoon is suitable as a salad or laying spoon, the sauce spoon serves soups and sauces. Both spoons have ergonomic handles and lie well in the hand. The Pinti brand from Italy stands for high product quality in all areas, whether restaurateur, hobby chef or for everyday use in the kitchen."
+                    ]
+                }
+            ],
+            "some": "Made in Germany"
+        },
+        {
+            "type": ["cooking"],
+            "id": 10,
+            "href": "pintinox-professional-cutlery-set",
+            "images": ["pintinox-astra0","pintinox-astra1","pintinox-astra2"],
+            "title": "PINTINOX cooking cutlery set »Astra«, (set, 2 pcs.), insert set, (sauce spoon, serving spoon), stainless steel 18/10",
+            "titleSearch": "PINTINOX cooking cutlery set »Astra«, (set, 2 pcs.), insert set, (sauce spoon, serving spoon), stainless steel 18/10",
+            "price": "39.90",
+            "qty": 1,
+            "description": [
+                {
+                    "title": "PINTINOX cooking cutlery set »Professional«, (set, 3 pcs.), grill/cutlery (ladle, roast turner, roast spatula), stainless steel 18/10, dishwasher safe",
+                    "prop": [
+                        "3 pcs. Grill/cooking utensils of the Pinti Professional series consisting of a ladle, a roast turner and a roast spatula",
+                        "The roast turner has a length of 46cm, the roast spatula a length of 55cm and the ladle of 28cm",
+                        "The grill/cooking cutlery is made of stainless steel 18/10",
+                        "The grill/cooking cutlery can be conveniently hung on the edge of the pot or in the kitchen due to the hanging hooks",
+                        "Dishwasher safe"
+                    ]
+                },
+                {
+                    "title": "",
+                    "prop": [
+                        "The Pinti Professional series convinces with its large selection of kitchen aids for every need and occasion. The grill/cooking cutlery consisting of a roast turner, a roast spatula and a ladle have ergonomic handles so that you always lie well in the hand. The set is the perfect addition to your kitchen or grill. Due to the length, they are also ideal for serving from larger casserole dishes and pans. The Pinti brand from Italy stands for high product quality in all areas, whether restaurateur, hobby chef or for everyday use in the kitchen."
+                    ]
+                }
+            ],
+            "some": "Made in Germany"
+        },
+        {
+            "type": ["dining-room"],
+            "id": 11,
+            "href": "affaire-dining-chair",
+            "images": ["liao0","liao1","liao2","liao3","liao4","liao5","liao6"],
+            "title": "Sustainable Home affaire dining chair »Liao«",
+            "titleSearch": "Sustainable Home affaire dining chair »Liao«",
+            "price": "209.90",
+            "qty": 1,
+            "description": [
+                {
+                    "title": "Sustainable Home affaire dining chair »Liao«, structure (100% polyester)",
+                    "prop": [
+                        "FSC®-certified solid wood",
+                        "In high-quality workmanship",
+                        "Seat and back upholstered",
+                        "Seat height approx. 50 cm",
+                        "Available in two qualities"
+                    ]
+                },
+                {
+                    "title": "Details Seat",
+                    "prop": [
+                        "padded"
+                    ]
+                },
+                {
+                    "title": "Brand Information",
+                    "prop": [
+                        "Since 2001, Home affaire has been inspiring us to fall in love with country house furniture. Whether modern, romantic or of course traditional – there are hardly any limits to the imagination for beautiful furnishings."
+                    ]
+                }
+            ],
+            "some": "Made in Germany"
+        },
+        {
+            "type": ["dining-room"],
+            "id": 12,
+            "href": "inosign-lowboard",
+            "images": ["inosign0","inosign1","inosign2","inosign3"],
+            "titleSearch": "INOSIGN Lowboard, width 180 cm, standing and hanging",
+            "title": "INOSIGN Lowboard, width 180 cm, standing and hanging",
+            "price": "129.90",
+            "qty": 1,
+            "description": [
+                {
+                    "title": "INOSIGN Lowboard, width 180 cm, standing and hanging",
+                    "prop": [
+                        "INOSIGN - Innovation & Design in every piece of furniture",
+                        "Dimensions (W/D/H): 180/33/30 cm",
+                        "Plenty of storage space",
+                        "Can be mounted standing and hanging",
+                        "Handleless"
+                    ]
+                },
+                {
+                    "title": "Care",
+                    "prop": [
+                        "Care instructions for furniture made of wood-based materials (including melamine and MDF): It is best to use a soft, non-lint cloth or leather cloth to care for your furniture made of panel materials. Wipe the surfaces slightly damp."
+                    ]
+                },
+                {
+                    "title": "Brand Information",
+                    "prop": [
+                        "INOSIGN is a carefully developed collection of innovative and extraordinary furnishings - each piece with a certain extra. The brand follows neither styles nor epochs, but only one goal: to transport freshness and uniqueness - whether modern, retro or timeless, INOSIGN furnishes the home surprisingly and individually."
+                    ]
+                }
+            ],
+            "some": "Made in Germany"
+        },
+        {
+            "type": ["dining-room"],
+            "id": 13,
+            "href": "woltra-sideboard",
+            "images": ["ribe0","ribe1","ribe2","ribe3","ribe4"],
+            "title": "Woltra Sideboard »Ribe«, width 130 cm",
+            "titleSearch": "Woltra Sideboard »Ribe«, width 130 cm",
+            "price": "299.90",
+            "qty": 1,
+            "description": [
+                {
+                    "title": "Woltra Sideboard »Ribe«, width 130 cm",
+                    "prop": [
+                        "3 doors",
+                        "Partially massive",
+                        "Decorative frame look",
+                        "Easy-care surfaces",
+                        "Metal handles"
+                    ]
+                },
+                {
+                    "title": "Care:",
+                    "prop": [
+                        "Care instructions for leached/oiled furniture made of natural wood: The surface of your new piece of furniture is treated with purely organic oil. Since the type of surface treatment may leave residues of the natural oil, it is best to rub this furniture with a lint-free cloth. (Allow the cloth to dry after use and only then dispose of it.) In order to preserve this natural, leached/oiled shine, we recommend an occasional post-treatment with suitable furniture oil."
+                    ]
+                }
+            ],
+            "some": "Made in Germany"
+        },
+        {
+            "type": ["dining-room"],
+            "id": 13,
+            "href": "papasansessel-chair",
+            "images": ["papasansessel0","papasansessel1","papasansessel2","papasansessel3","papasansessel4"],
+            "title": "Home affaire rattan chair »Papasansessel«",
+            "titleSearch": "Home affaire rattan chair »Papasansessel«",
+            "price": "147.90",
+            "qty": 1,
+            "description": [
+                {
+                    "title": "Home affaire rattan chair »Papasansessel«, made of braided rattan, in different sizes (80-110 cm)",
+                    "prop": [
+                        "In 3 colours",
+                        "In 3 sizes - natural colors, white or brown stained lacquered",
+                        "In high-quality workmanship",
+                        "Hand-braided from rattan",
+                        "Including seat cushion"
+                    ]
+                },
+                {
+                    "title": "Brand Information",
+                    "prop": [
+                        "Since 2001, Home affaire has been inspiring us to fall in love with country house furniture. Whether modern, romantic or of course traditional – there are hardly any limits to the imagination for beautiful furnishings."
+                    ]
+                },
+                {
+                    "title": "",
+                    "prop": [
+                        "The hand-woven rattan chair from Home affaire offers incomparable moments of relaxation. It comes with a great and ultra-comfortable back cushion: as a round daddy chair the perfect partner to switch off and relax. The soft - and quilted for even more well-being - pad nestles around the body and invites you to dream. Visually, the high-quality wicker armchair in country house style scores with its curved design language. It can be integrated harmoniously into the living room effortlessly. Whether youth room, student apartment or exclusive living room design - this armchair is the perfect answer in all areas when it comes to a break from hectic everyday life. Whether for watching TV, reading an exciting book or just like that: The Home affaire Papasansessel as hand-woven quality furniture convinces with a contemporary design language and quickly becomes an absolute favorite place."
+                    ]
+                }
+            ],
+            "some": "Made in Germany"
+        },
+        {
+            "type": ["dining-room"],
+            "id": 13,
+            "href": "atlantic-lounger",
+            "images": ["atlantic0","atlantic1","atlantic2"],
+            "title": "Sustainable ATLANTIC home collection Relaxation lounger",
+            "titleSearch": "Sustainable ATLANTIC home collection Relaxation lounger",
+            "price": "219.90",
+            "qty": 1,
+            "description": [
+                {
+                    "title": "ATLANTIC home collection Relaxation lounger",
+                    "prop": [
+                        "Freely adjustable in the room",
+                        "In high-quality workmanship",
+                        "FSC®-certified wood-based material",
+                        "Includes a neck pillow"
+                    ]
+                },
+                {
+                    "title": "",
+                    "prop": [
+                        "Relax in style - with the relaxation lounger from Atlantic Home Collection in high-quality workmanship. The modern design is determined by the refined shape as well as the optically divided lying surface. Since the couch is available in different colors, it can be adapted to the color concept in the respective room. In addition to the look, the recliner convinces with its pleasant seating comfort. It owes this in particular to the firm, firm padding. A matching neck pillow is already included in the scope of delivery. An FSC®-certified wood-based material is used for the production of the chair. Whether for cozy reading hours or a TV evening - the relaxation lounger from Atlantic Home Collection in high-quality workmanship invites you to relax."
+                    ]
+                }
+            ],
+            "some": "Made in Germany"
+        },
+        {
+            "type": ["living-room"],
+            "id": 14,
+            "href": "ecksofa-rice",
+            "images": ["rice0","rice1","rice2","rice3"],
+            "title": "Home affaire Ecksofa »Rice«, incl. Hocker, mit Federkern",
+            "titleSearch": "Home affaire Ecksofa »Rice«, incl. Hocker, mit Federkern",
+            "price": "1019.90",
+            "qty": 1,
+            "description": [
+                {
+                    "title": "Home affaire Ecksofa »Rice«, incl. Hocker, mit Federkern",
+                    "prop": [
+                        "Inklusive komfortablen Federkerns",
+                        "Inklusive loser Zier- und Rückenkissen",
+                        "Ottomane links oder rechts montierbar",
+                        "In 3 Bezugsqualitäten",
+                        "Aus FSC®-zertifiziertem Holzwerkstoff"
+                    ]
+                },
+                {
+                    "title": "",
+                    "prop": [
+                        "With appealing design and shapely design, the modern upholstered corner »Rice« including stool from the Home affaire collection presents itself. The corner couch convinces with the chic color of the upholstery fabric and various upholstery qualities, among which the personal favorite can be discovered. The legs with their wood look blend harmoniously into the overall picture. With cosy seating comfort, the corner sofa invites you to spend relaxing hours. It is equipped with a breathable foam padding on a comfortable spring core. In addition, the back, decorative and armrest cushions are included. Practical is the stool, which can be placed freely in the room and also as part of the sofa, creating a generously dimensioned lying surface. With the modern Home affaire upholstery corner »Rice« including stool, the peaceful moments at home are even more relaxed."
+                    ]
+                },
+                {
+                    "title": "Brand Information",
+                    "prop": "Since 2001, Home affaire has been inspiring us to fall in love with country house furniture. Whether modern, romantic or of course traditional – there are hardly any limits to the imagination for beautiful furnishings."
+                }
+            ],
+            "some": "Made in Germany"
+        },
+        {
+            "type": ["living-room"],
+            "id": 15,
+            "href": "ecksofa-iplace",
+            "images": ["ecksofe0","ecksofe1","ecksofe2","ecksofe3","ecksof4","ecksofe5","ecksofe6"],
+            "title": "Places of Style Ecksofa, Ottomane links oder rechts montierbar, inklusive 3 loser Rücken- und 2 Zierkissen, frei im Raum stellbar",
+            "titleSearch": "Places of Style Ecksofa, Ottomane links oder rechts montierbar, inklusive 3 loser Rücken- und 2 Zierkissen, frei im Raum stellbar",
+            "price": "1199.99",
+            "qty": 1,
+            "description": [
+                {
+                    "title": "Places of Style Ecksofa, Ottomane links oder rechts montierbar",
+                    "prop": [
+                        "Frei im Raum stellbar",
+                        "Inklusive 3 loser Rücken- und 2 Zierkissen",
+                        "Ottomane links oder rechts montierbar",
+                        "Nosagfederung und Polyätherschaum"
+                    ]
+                },
+                {
+                    "title": "",
+                    "prop": [
+                        "This high-quality upholstered corner proves to be a cosy retreat. It has a sturdy wooden base. The combination of Nosag suspension and pleasantly soft foam padding achieves a high level of seating comfort. The corner sofa is even more comfortable thanks to the associated decorative and back cushions. The sofa is upholstered all around and can therefore be easily set up freely in the room or used as an attractive room divider. In order for the couch to be adapted to the room cut, the ottoman can be mounted both left and right. The seating landscape is available in different colour combinations. The high-quality upholstered corner enhances the living room visually and functionally."
+                    ]
+                }
+            ],
+            "some": "Made in Germany"
+        },
+        {
+            "type": ["living-room"],
+            "id": 16,
+            "href": "dimona-gardine",
+            "images": ["dimona0","dimona1","dimona2","dimona3","dimona4","dimona5","dimona6"],
+            "titleSearch": "my home Gardine »Dimona«",
+            "title": "my home Gardine »Dimona«",
+            "price": "59.99",
+            "qty": 1,
+            "description": [
+                {
+                    "title": "my home Gardine »Dimona«",
+                    "prop": [
+                        "Transparent fabric",
+                        "Printed",
+                        "Real Voile"
+                    ]
+                },
+                {
+                    "title": "",
+                    "prop": [
+                        "Great trendy voile from »Wohntextilien live« at a sensational price. Whether in light fresh tone or rather simple, set trendy color accents with delicate fabrics and bring variety to your apartment. This elaborately crafted voile is characterized by its printed waves and offers you, by combining the different designs, a successful variety of decoration options. The transparent fabric still lets enough light into your apartment and this looks wonderfully bright."
+                    ]
+                }
+            ],
+            "some": "Made in Germany"
+        },
+        {
+            "type": ["living-room"],
+            "id": 17,
+            "href": "solana-gardine",
+            "images": ["solana0","solana1","solana2","solana3","solana4"],
+            "title": "my home Gardine »Dimona«",
+            "titleSearch": "my home Gardine »Dimona«",
+            "price": "59.99",
+            "qty": 1,
+            "description": [
+                {
+                    "title": "my home Gardine »Dimona«",
+                    "prop": [
+                        "Transparent fabric",
+                        "Printed",
+                        "Real Voile"
+                    ]
+                },
+                {
+                    "title": "",
+                    "prop": [
+                        "Great trendy voile from »Wohntextilien live« at a sensational price. Whether in light fresh tone or rather simple, set trendy color accents with delicate fabrics and bring variety to your apartment. This elaborately crafted voile is characterized by its printed waves and offers you, by combining the different designs, a successful variety of decoration options. The transparent fabric still lets enough light into your apartment and this looks wonderfully bright."
+                    ]
+                }
+            ],
+            "some": "Made in Germany"
+        },
+        {
+            "type": ["living-room"],
+            "id": 18,
+            "href": "nova-sofa",
+            "images": ["nova0","nova1","nova2"],
+            "title": "Nova Via Big sofa, optionally with cold foam (140kg load/seat) and AquaClean fabric for easy cleaning with water",
+            "titleSearch": "Nova Via Big sofa, optionally with cold foam (140kg load/seat) and AquaClean fabric for easy cleaning with water",
+            "price": "2439.90",
+            "qty": 1,
+            "description": [
+                {
+                    "title": "Nova Via Big sofa, optionally with cold foam (140kg load/seat)",
+                    "prop": [
+                        "Freely adjustable in the room",
+                        "In wipeable Aqua-Clean fabric",
+                        "optionally with cold foam (140kg seat load)",
+                        "Made of FSC®-certified wood-based material",
+                        "Includes loose decorative and back cushions"
+                    ]
+                },
+                {
+                    "title": "",
+                    "prop": [
+                        "The modern big sofa, which is optionally equipped with RGB LED, offers plenty of space with great seating comfort. It is suitable for the whole family and for social gatherings with friends. It is available in various upholstery qualities, so that it can be optimally adapted to the domestic interior. As an eye-catcher, the beautiful quilting on the seat scores. Loose decorative and back cushions are part of the equipment of the couch. The comfortable shaft underspring and breathable polyether foam upholstery ensure high seating comfort. Convinces as trendy seating furniture with a large seat: the modern Big sofa."
+                    ]
+                }
+            ],
+            "some": "Made in Germany"
+        },
+        {
+            "type": ["living-room"],
+            "id": 19,
+            "href": "nova-nikita-sofa",
+            "images": ["nikita0","nikita1","nikita2","nikita3"],
+            "title": "Nova Via Ecksofa »Nikita«, wahlweise mit Kaltschaum (140kg Belastung/Sitz)",
+            "titleSearch": "Nova Via Ecksofa »Nikita«, wahlweise mit Kaltschaum (140kg Belastung/Sitz)",
+            "price": "1362.90",
+            "qty": 1,
+            "description": [
+                {
+                    "title": "Nova Via Ecksofa »Nikita«, wahlweise mit Kaltschaum (140kg Belastung/Sitz)",
+                    "prop": [
+                        "Optionally with bed function and bed box",
+                        "Ottoman left or right can be ordered",
+                        "In several reference qualities",
+                        "FSC® certified wood-based material",
+                        "Optionally with cold foam (140kg seat load)"
+                    ]
+                },
+                {
+                    "title": "",
+                    "prop": [
+                        "This modern upholstered corner is, due to its extraordinary armrest, a real design highlight. With integrated RGB LED lighting in the bezel, including remote control for color selection. The quilted seat underlines the trendy character of the upholstered furniture. The extensive pillow set turns the upholstered corner into a cozy oasis to relax, while the optional sound system plays your favorite music from MP3 player or smartphone via Bluetooth. In addition, the sound system is equipped with a USB port. Music playback can be controlled via the built-in touch panel. For more space to relax, the corner can be quickly transformed into a bed with the bed function. The permanently elastic shaft suspension, the FSC®-certified wooden base and the breathable polyether foam padding, let you sit like on clouds. Available in several upholstery qualities: body and decorative cushion in Primabelle® microfibre, with seat and back cushion in durable structural fabric or body and decorative cushion in softlux® artificial leather, also with seat and back cushion in structural fabric. Freely adjustable in the room."
+                    ]
+                }
+            ],
+            "some": "Made in Germany"
+        },
+        {
+            "type": ["kitchen"],
+            "id": 20,
+            "href": "iver",
+            "images": ["iver0","iver1","iver2","iver3","iver4","iver5","iver6"],
+            "title": "OPTIFIT kitchenette »Iver«, 210 cm wide, incl. electrical appliances of the brand HANSEATIC, optionally with or without fully integrable dishwasher",
+            "titleSearch": "OPTIFIT kitchenette »Iver«, 210 cm wide, incl. electrical appliances of the brand HANSEATIC, optionally with or without fully integrable dishwasher",
+            "price": "2299.90",
+            "qty": 1,
+            "description": [
+                {
+                    "title": "OPTIFIT kitchenette »Iver«, 210 cm wide",
+                    "prop": [
+                        "With 38 mm thick worktop",
+                        "Metal handles",
+                        "Made in Germany",
+                        "damped doors and drawers",
+                        "Including stove set, extractor hood and optional dishwasher"
+                    ]
+                },
+                {
+                    "title": "",
+                    "prop": [
+                        "The kitchen furniture series Iver: purposefully designed kitchen furniture in current colour combinations. Choose from 3 current fronts combined with a timelessly beautiful wild oak or white body and a continuous 38 mm thick worktop. The doors can be mounted with a stop on the left or right, so a flexible design of your kitchen is possible. The equipment of the kitchenettes Iver includes practical accessories such as adjustable feet for height compensation, mounting rail for wall cabinets, wall connection profile and dampers for drawers and doors. In addition, you will receive a cutlery insert free of charge."
+                    ]
+                }
+            ],
+            "some": "Made in Germany"
+        },
+        {
+            "type": ["kitchen"],
+            "id": 21,
+            "href": "empty",
+            "images": ["empty0","empty1","empty2","empty3","empty4","empty5","empty6"],
+            "titleSearch": "OPTIFIT kitchenette »Empty«, 210 cm wide, incl. electrical appliances of the brand HANSEATIC, optionally with or without fully integrable dishwasher",
+            "title": "OPTIFIT kitchenette »Empty«, 210 cm wide, incl. electrical appliances of the brand HANSEATIC, optionally with or without fully integrable dishwasher",
+            "price": "1799.90",
+            "qty": 1,
+            "description": [
+                {
+                    "title": "OPTIFIT kitchenette »Empty«, 210 cm wide",
+                    "prop": [
+                        "With 38 mm thick worktop",
+                        "Easy-care surface",
+                        "Available in multiple colors",
+                        "Metal drawer strips",
+                        "Made in Germany"
+                    ]
+                },
+                {
+                    "title": "",
+                    "prop": [
+                        "The kitchenette with electric appliances »Leer« from OPTIFIT convinces with a stylish appearance. Choose from 3 attractive fronts combined with a light oak body and a continuous 38 mm thick worktop. A flexible design of your kitchen is possible due to the changeable stop of the doors and can be extended as desired. The equipment of the kitchenette Leer includes a continuous worktop, a wall closure strip, a stainless steel built-in sink and adjusting feet for height compensation. Matching electrical appliances of the Hanseatic brand are included in the scope of delivery. In addition, you will receive a cutlery insert free of charge. With the kitchenette with electric appliances »Leer« from OPTIFIT, every kitchen can be comfortably equipped."
+                    ]
+                }
+            ],
+            "some": "Made in Germany"
+        },
+        {
+            "type": ["kitchen"],
+            "id": 22,
+            "href": "bigge",
+            "images": ["bigge0"],
+            "title": "Home affaire Buffet »Bigge«, 122 cm wide",
+            "titleSearch": "Home affaire Buffet »Bigge«, 122 cm wide",
+            "price": "549.90",
+            "qty": 1,
+            "description": [
+                {
+                    "title": " Buffet »Bigge«, 122 cm wide",
+                    "prop": [
+                        "4 doors",
+                        "6 drawers",
+                        "Drawer on metal pull-outs",
+                        "Metal handles",
+                        "FSC®-certified wood-based material"
+                    ]
+                },
+                {
+                    "title": "",
+                    "prop": [
+                        "Since 2001, Home affaire has been inspiring us to fall in love with country house furniture. Whether modern, romantic or of course traditional? there are hardly any limits to the imagination for beautiful furnishing. The use of certified sustainable wood, natural materials and tested textiles has been part of the brand philosophy since the beginning"
+                    ]
+                }
+            ],
+            "some": "Made in Germany"
+        },
+        {
+            "type": ["kitchen"],
+            "id": 23,
+            "href": "white-classic",
+            "images": ["white-classic0","white-classic1","white-classic2"],
+            "title": "Menke kitchen kitchenette »White Classic«, kitchenette with electric appliances, width 270 cm",
+            "titleSearch": "Menke kitchen kitchenette »White Classic«, kitchenette with electric appliances, width 270 cm",
+            "price": "1299.90",
+            "qty": 1,
+            "description": [
+                {
+                    "title": "Menke kitchen kitchenette »White Classic«",
+                    "prop": [
+                        "With 28 mm thick worktop",
+                        "Easy-care surface",
+                        "Available in multiple colors",
+                        "Glass-ceramic hob"
+                    ]
+                },
+                {
+                    "title": "",
+                    "prop": [
+                        "The »Classic« kitchen block, with a width of 270 cm, meets the requirements of a modern cooking space limited to the essentials. The kitchenette is equipped with a stove set including easy-care glass-ceramic hob, a refrigerator with integrated freezer and a powerful extractor hood, as well as, if selected, a family-friendly dishwasher in the width 60 cm. A well equipped kitchen for the smaller living space."
+                    ]
+                }
+            ],
+            "some": "Made in Germany"
+        },
+        {
+            "type": ["kitchen"],
+            "id": 24,
+            "href": "chicago",
+            "images": ["chicago0","chicago1","chicago2","chicago3","chicago4"],
+            "title": "wiho kitchen kitchen set »Chicago«, without electric appliances, total width 180 cm",
+            "titleSearch": "wiho kitchen kitchen set »Chicago«, without electric appliances, total width 180 cm",
+            "price": "1099.90",
+            "qty": 1,
+            "description": [
+                {
+                    "title": "»Chicago«, without electric appliances",
+                    "prop": [
+                        "With 28 mm thick worktop",
+                        "Easy-care surface",
+                        "Available in multiple colors",
+                        "Metal rod handles"
+                    ]
+                },
+                {
+                    "title": "Kitchenette consisting of:",
+                    "prop": [
+                        "2 base cabinets",
+                        "Continuous worktop 180 cm long",
+                        "2 folding lift wall cabinets"
+                    ]
+                },
+                {
+                    "title": "Details about the equipment:",
+                    "prop": [
+                        "Shelves of the wall cabinets height-adjustable",
+                        "Metal drawer strip",
+                        "Base height not adjustable",
+                        "Continuous worktop, 28 mm thick, without cut-outs for hob and sink - thus to be set variably",
+                        "Base height: 10 cm"
+                    ]
+                }
+            ],
+            "some": "Made in Germany"
+        }
+    ]
+}

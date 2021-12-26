@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400;500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif!important;
+    letter-spacing: 1px;
+}
+.main-color{
+    color: #181b21!important;
+}
+.second-color{
+    color: #4b4d52!important;
+}
+.nav-bar{
+    background-color: #fff!important;
+    color: #000!important;
+    opacity: .8;
+}
+.nav-bar a{
+    color: #000;
+    text-decoration: none;
+}

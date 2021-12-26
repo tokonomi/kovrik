@@ -1,0 +1,29 @@
+<div class="vh-100 position-relative">
+    <div class="position-absolute top-0 start-50 translate-middle-x fs-4 logo-link-block">
+        <a routerLink="" class="logo-link main-color">KOVRIK</a>
+    </div>
+    <div class="position-absolute top-50 start-50 translate-middle log-block">
+        <h1 class="fs-1">{{'sign in' | translate | titlecase}}</h1>
+        <form [formGroup]="formData" (ngSubmit)="onSignin()" class="log-form">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">{{'Email address' | translate | titlecase}}</label>
+              <input formControlName="email" type="email" class="form-control log-input" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text text-danger" *ngIf="formData.get('email')?.errors?.required && formData.get('email')?.touched">{{'this field is required' | translate | titlecase}}</div>
+              <div id="emailHelp" class="form-text text-danger" *ngIf="formData.get('email')?.errors?.email">{{'email is invalid' | translate | titlecase}}</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input formControlName="password" type="password" class="form-control log-input" id="exampleInputPassword1">
+              <div id="emailHelp" class="form-text text-danger" *ngIf="formData.get('password')?.errors && formData.get('password')?.touched">{{'wrong value' | translate | titlecase}}</div>
+              <div *ngIf="error" style="color: red;">{{'invalid email or password entered' | translate | titlecase}}</div>
+            </div>
+            <button type="submit" class="btn btn-primary log-btn" [disabled]="formData.invalid">{{'login' | translate | titlecase}}</button>
+        </form>
+        <div class="text-center or-block">
+            <span class="or d-flex">{{'or' | translate | titlecase}}</span>
+        </div>
+        <div class="w-100">
+            <a routerLink="/sign-up"><button type="button" class="btn btn-outline-dark w-100 round-btn">{{'sign up' | translate | titlecase}}</button></a>
+        </div>
+    </div>
+</div>

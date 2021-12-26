@@ -1,0 +1,249 @@
+
+<div class="side-bar">
+    <mat-sidenav-container>
+        <mat-sidenav opened [(opened)] = opened  position="end">
+    
+            <div class="d-flexP">
+                <div class="d-flex back-btn" *ngIf="selectedLang" (click) = "selectedLang = !selectedLang">
+                    <i class="bi bi-arrow-left"></i>
+                    <p>{{'back' | translate | titlecase}}</p>
+                </div>
+                <div>
+                    <i (click) = 'opened = !opened' class="event-btn" class="bi bi-x-lg"></i>
+                </div>
+            </div>
+    
+            <div *ngIf="selectedLang" class="lang-section">
+                <mat-list class="c-list" *ngFor="let reg of languages; let i = index">
+                    <h2>{{reg.regionName}}</h2>
+                    <mat-list-item *ngFor="let cnt of languages[i].region"> 
+                        <div class="list-content">
+                            <p>{{cnt.country}}</p> 
+                            <small class="choose-lang" (click)="changeLang(cnt.value, cnt.country, cnt.lang)">{{cnt.lang}}</small>
+                        </div>
+                    </mat-list-item>
+                </mat-list>
+            </div>
+            <div *ngIf="!selectedLang">
+                <mat-list>
+                    <mat-list-item>
+                        <div class="lang-item">
+                            <div>
+                                <i class="bi bi-translate"></i>
+                            </div>
+                            <div class="current-lang">
+                                <p>{{currentCountry}}</p>
+                                <p class="lang" (click)="selectedLang = !selectedLang">{{currentLanguage}}</p>
+                            </div>
+                        </div>
+                    </mat-list-item>
+                </mat-list>
+            </div>
+        </mat-sidenav>
+        <mat-sidenav-content class="content-sec">
+            <div>
+                <mat-toolbar class="nav-bar fixxy">
+                        <div class="app-logo">
+                            <span><a routerLink="">KOVRIK</a></span>
+                        </div>
+                        <ul class="menu">
+                            <li *ngIf="!user"><a routerLink="/login">{{'sign in'| translate | titlecase}}</a></li>
+                            <li *ngIf="user" (click)="signOut()"><mat-icon>logout</mat-icon></li>
+                            <li (click)="opened = !opened" class="event-btn">{{'menu'| translate | titlecase}}</li>
+                        </ul>
+                </mat-toolbar>
+                <div>
+                    <div class="head-container" [ngStyle]="{
+                        'background': 'url(/assets/images/'+ activatedProduct.product +'/' + activatedProduct.product + '3.jpg) center/cover'
+                    }">
+                        <div class="container head-inner">
+                
+                            <div class="prod-title text-center">
+                                <h1 class="fs-1">{{activatedProduct.name}}</h1>
+                                <h5>{{'knotted by hand' | translate | titlecase}}</h5>
+                            </div>
+                
+                            <div class="details1 row w-100 back-white">
+                                <div class="col-sm-2">
+                                    <div class="text-center d-text-title main-color">{{activatedProduct.warp | translate}}</div>
+                                    <div class="text-center d-text-sub-title second-color">{{'warp' | translate | titlecase}}</div>
+                                </div>
+                                <div class="col-sm-2">
+                                    <div class="text-center d-text-title main-color">{{activatedProduct.pile | translate}}</div>
+                                    <div class="text-center d-text-sub-title second-color">{{'pile' | translate | titlecase}}</div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="text-center d-text-title main-color">{{activatedProduct.manufacture | translate}}</div>
+                                    <div class="text-center d-text-sub-title second-color">{{'manufacturing' | translate | titlecase}}</div>
+                                </div>
+                                <div class="col text-center main-color col-lg">
+                                    <a [routerLink]="['/order', activatedProduct.product]">
+                                        <button type="button" class="btn btn-outline-dark rounded-btn">{{'order' | translate | titlecase}}</button>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                
+                        </div>
+                    </div>
+                    <div class="sec-1" [ngStyle]="{
+                        'background': 'linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0.010947779605263164) 49%), url(/assets/images/'+ activatedProduct.product +'/' + activatedProduct.product + '8.jpg) center/cover'
+                    }">
+                        <div class="container">
+                            <h1 class="text-center sec1-title">{{'in detail' | translate | titlecase}}</h1>
+                        </div>
+                    </div>
+                    <div class="sec-2">
+                        <div class="container">
+                            <div class="det-container">
+                                <div class="row data-row ">
+                                    <div class="col-md">
+                                        <div class="d-image d-img-1" [ngStyle]="{
+                                            'background': 'url(/assets/images/'+ activatedProduct.product +'/' + activatedProduct.product + '0.jpg) center/cover'
+                                        }"></div>
+                                    </div>
+                                    <div class="col-md">
+                                        <div class="d-details">
+                                            <h3 class="fs-3">{{'Carpet from' | translate | titlecase}} {{activatedProduct.origin | translate | titlecase}}</h3>
+                                            <p>{{activatedProduct.details | translate}}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row data-row d-flex-detail">
+                                    <div class="col-md">
+                                        <div class="d-details">
+                                            <h3 class="fs-3">{{'quality textiles' | translate | titlecase}}</h3>
+                                            <p>{{activatedProduct.quality | translate}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md">
+                                        <div class="d-image d-img-2" [ngStyle]="{
+                                            'background': 'url(/assets/images/'+ activatedProduct.product +'/' + activatedProduct.product + '7.jpg) center/cover'
+                                        }"></div>
+                                    </div>
+                                </div>
+                                <div class="row data-row">
+                                    <div class="col-md">
+                                        <div class="d-image d-img-3" [ngStyle]="{
+                                            'background': 'url(/assets/images/'+ activatedProduct.product +'/' + activatedProduct.product + '8.jpg) center/cover'
+                                        }"></div>
+                                    </div>
+                                    <div class="col-md">
+                                        <div class="d-details">
+                                            <h3 class="fs-3">{{'Durable Wool' | translate |titlecase}}</h3>
+                                            <p>{{activatedProduct.durableWool | translate}}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sec-3">
+                        <div class="sec-3-inner" [ngStyle]="{
+                            'background': 'url(/assets/images/'+ activatedProduct.product +'/' + activatedProduct.product + '6.jpg) center/cover'
+                        }">
+                            <div class="container sec-3-container">
+                                <div class="row back-white">
+                                    <div class="col-sm-4 text-center">
+                                        <h3 class="fs-4 main-color">≈ {{activatedProduct.thickness | translate}}</h3>
+                                        <p class="fs-5 second-color">{{'thickness' | translate | titlecase}}</p>
+                                    </div>
+                                    <div class="col-sm-4 text-center">
+                                        <h3 class="fs-4 main-color">{{activatedProduct.size | translate}}</h3>
+                                        <p class="fs-5 second-color">{{'size' | translate | titlecase}}</p>
+                                    </div>
+                                    <div class="col-sm-4 text-center">
+                                        <h3 class="fs-4 main-color">{{activatedProduct.origin | translate}}</h3>
+                                        <p class="fs-5 second-color">{{'origin' | translate | titlecase}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sec-3-inner-st">
+                            <div class="container">
+                                <div class="row beyond-text d-flex-ludi">
+                                    <div class="col-lg-4  beyond-inner-row-1">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h2 class="fs-2 second-color">{{'beyond ludicrous' | translate | titlecase}}</h2>
+                                            </div>
+                                        </div>
+                                        <div class="row abobus">
+                                            <a [routerLink]="['/order', activatedProduct.product]">
+                                                <button type="button" class="btn btn-outline-dark rounded-btn">{{'order' | translate | titlecase}}</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="beyond-inner-text second-color">
+                                            <p>
+                                                {{activatedProduct.ludicrous | translate}}
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sec-4">
+                        <div class="container">
+                            <div class="w-50 info-2">
+                                <h2 class="fs-2 main-color">{{'durable wool' | translate | titlecase}}</h2>
+                                <p class="second-color">{{activatedProduct.durableWool | translate}}</p>
+                            </div>
+                            <div class="info-2-img-c">
+                                <div class="info-2-img" [ngStyle]="{
+                                    'background': 'url(/assets/images/'+ activatedProduct.product +'/' + activatedProduct.product + '9.jpg) center/cover'
+                                }"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sec-5 container-fluid">
+                        <div class="row ">
+                            <div class="col-sm-9 order-sec" [ngStyle]="{
+                                'background': 'url(/assets/images/'+ activatedProduct.product +'/' + activatedProduct.product + '4.jpg) center/cover'
+                            }">
+                            </div>
+                            <div class="col-sm-3 order-right-sec">
+                                <div class="order-container">
+                                    <h2 class="fs-2 main-color">
+                                        {{'order anywhere' | translate | titlecase}}
+                                    </h2>
+                                    <p class="second-color">{{'We deliver our goods to any accessible location in the world, you can order this product anywhere and we will deliver it to you within a month' | translate}}</p>
+                                </div>
+                                <div class="order-btn-c row">
+                                    <a [routerLink]="['/order', activatedProduct.product]">
+                                        <button type="button" class="btn btn-outline-dark rounded-btn">{{'order now' | translate | titlecase}}</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-sec">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-sm-6 footer-prod-name">
+                                <div class="footer-btn">
+                                    <div class="inner-btn">
+                                        <div> 
+                                            <h1 class="main-color">{{activatedProduct.name | translate}}</h1>
+                                        </div>
+                                        <a [routerLink]="['/order', activatedProduct.product]">
+                                            <button type="button" class="btn btn-outline-dark rounded-btn">{{'order now' | translate | titlecase}}</button>
+                                        </a>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="col-sm-5 footer-sec-img" [ngStyle]="{
+                                    'background': 'url(/assets/images/'+ activatedProduct.product +'/' + activatedProduct.product + '5.jpg) center/cover'
+                                }"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </mat-sidenav-content>
+    </mat-sidenav-container>
+</div>
+

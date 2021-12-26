@@ -1,0 +1,53 @@
+<div class="main">
+    <div class="position-absolute top-0 start-50 translate-middle-x fs-4 logo-link-block">
+        <a routerLink="/shop" class="logo-link main-color back-link"><i class="bi bi-arrow-left-square"></i></a>
+        <a routerLink="" class="logo-link main-color">KOVRIK</a>
+    </div>
+    <div class="content">
+        <h1>{{categorieData.title}}</h1>
+        <div class="best-seller">
+            <h2 class="main-color">{{'Best sellers' | translate | titlecase}}</h2>
+            <ul class="row">
+                <li *ngFor="let i of bestSellers" class="col">
+                    <a [routerLink]="['/product', i.href]" appStyle class="card-link">
+                        <div class="card" [ngStyle]="{
+                            'background': 'url(./assets/images/'+ i.ref +'/'+ i.imgName +'.jpg) center/contain no-repeat'
+                        }">
+                            <div class="details-hover"> 
+                                {{'view details' | translate | titlecase}}
+                            </div>
+                        </div>
+                        <p class="item-title main-color">
+                            {{i.title}}
+                        </p>
+                        <p class="item-price second-color">
+                            {{i.price}}
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="seller" *ngFor="let i of categorieData.sets">
+            <h2>{{i}}</h2>
+            <ul class="row seller-list">
+                <li *ngFor="let innerItem of categorieData[i]" class="col-4">
+                <a [routerLink]="['/product', innerItem.href]" appStyle class="card-link">
+                    <div class="card" [ngStyle]="{
+                        'background': 'url(./assets/images/'+ innerItem.ref +'/'+ innerItem.imgName +'.jpg) center/contain no-repeat'
+                    }">
+                        <div class="details-hover"> 
+                            {{'view details' | translate | titlecase}}
+                        </div>
+                    </div>
+                    <div>
+                        {{innerItem.title}}
+                    </div>
+                    <div>
+                        {{innerItem.price}}
+                    </div>
+                </a>
+            </li>
+            </ul>
+        </div>
+    </div>
+</div>

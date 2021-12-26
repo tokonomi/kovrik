@@ -1,0 +1,115 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+*{
+    color: #000;
+}
+
+li{
+    list-style-type: none;
+}
+
+.back-link{
+    margin-right: 20px;
+}
+
+.main{
+    margin: 100px 0 0 0;
+}
+
+.content{
+    padding: 0 50px;
+}
+
+.best-seller{
+    margin-top: 30px;
+}
+
+.best-seller-list{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.best-seller-list li{
+    flex-basis: 30%;
+}
+
+.card{
+    max-height: 380px!important;
+    height: 380px!important;
+    width: 100%;
+    position: relative;
+}
+
+.details-hover{
+    position: absolute;
+    height: 105px;
+    width: 100%;
+    background-color: #f9f9f9;
+    bottom: 0;
+    text-align: center;
+    padding: 43px 21px;
+    opacity: 0;
+    transition: all .5s ;
+    font-size: 1.5em;
+}
+
+.active .details-hover{
+    opacity: 1;
+}
+
+.card-link{
+    text-decoration: none;
+    display: block;
+}
+
+.item-title{
+    font-size: 1.1em;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0;
+}
+.item-price{
+    font-weight: 500;
+    font-size: 1em;
+    margin: 0;
+}
+.logo-link-block{
+    padding: 5px 0;
+}
+.logo-link{
+    text-decoration: none;
+}
+
+@media (max-width: 990px){
+    .card{
+        background-size: 450px!important;
+        height: 300px!important;
+    }
+    .seller-list{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 690px){
+    .seller-list{
+        display: block!important;
+    }
+    .seller-list li{
+        width: 100%!important;
+    }
+}
+@media (max-width: 320px){
+    .log-block{
+        width: 100%;
+    }
+    .card{
+        height: 200px!important;
+        width: 100%!important;
+    }
+    .seller-list{
+        display: block!important;
+    }
+    .seller-list{
+        flex-wrap: wrap;
+    }
+    
+}

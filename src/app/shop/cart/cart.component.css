@@ -1,0 +1,75 @@
+
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+h4, h1{
+    color: #000;
+}
+
+.link-btn button{
+    width: 300px;
+    padding: 5px;
+    margin: 0 5px;
+    border-radius: 50px;
+}
+.back-link{
+    margin-right: 20px;
+}
+
+.cart-container{
+    margin-top: 100px ;
+}
+
+.cart-items{
+    margin-top: 50px;
+}
+
+.item-info{
+    margin: 15px 0 0 15px;
+}
+
+.qty-text{
+    padding: 5px 0;
+    align-items: center;
+}
+.btn:hover{
+    color: #fff!important;
+}
+.check-btn{
+    color: #fff!important;
+}
+.logo-link-block{
+    padding: 5px 0;
+}
+.logo-link{
+    text-decoration: none;
+}
+.qty{
+    width: 40px;
+    padding-left: 5px;
+    border: 1px solid #000;
+    border-radius: 8px;
+}
+
+@media (max-width: 1200px){
+    .img-thumbnail{
+        object-fit: cover;
+        width: 33%;
+    }
+}
+@media (max-width: 768px){
+    .link-btn button{
+        margin-bottom: 10px;
+    }
+    .prices{
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 400px){
+    .quantity{
+        padding-left: 20px;
+    }
+    .qty-btn{
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+}

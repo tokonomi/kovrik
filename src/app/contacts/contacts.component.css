@@ -1,0 +1,12 @@
+.map{
+    height: 94.2vh;
+    width: 100%;
+}
+.logo-bar{
+    background-color: #fff;
+    height: 50px;
+    width: 100%;
+}
+.logo-bar h1{
+    top: 10px!important;
+}

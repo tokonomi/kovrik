@@ -1,0 +1,40 @@
+<div class="vh-100 position-relative">
+    <div class="position-absolute top-0 start-50 translate-middle-x fs-4 logo-link-block">
+      <a routerLink="" class="logo-link main-color">KOVRIK</a>
+    </div>
+    <div class="position-absolute top-50 start-50 translate-middle log-block">
+        <h1 class="fs-1">sign in</h1>
+        <form class="log-form" [formGroup]="formData" (ngSubmit)="onSignUp()">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">{{'Email address' | titlecase | translate}}</label>
+              <input formControlName="email" type="email" class="form-control log-input" id="email" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text text-danger" *ngIf="formData.get('email')?.errors?.required && formData.get('email')?.touched">{{'this field is required' | translate | titlecase}}</div>
+              <div id="emailHelp" class="form-text text-danger" *ngIf="f['email'].touched && f['email'].invalid">
+                {{'email is required' | translate | titlecase}}
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">{{'Password' | translate | titlecase}}</label>
+              <input formControlName="password" type="password" class="form-control log-input" id="password">
+              <div id="emailHelp" class="form-text text-danger" *ngIf="f['password'].touched && f['password'].invalid">
+                <div *ngIf="f['password'].errors!['required']">{{'password is required' | translate | titlecase}}</div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">{{'Confirm Password' | translate | titlecase}}</label>
+              <input formControlName="passwordConfirm" type="password" class="form-control log-input" id="passwordConfirm">
+              <div id="emailHelp" class="form-text text-danger" *ngIf="f['passwordConfirm'].touched && f['passwordConfirm'].invalid">
+                <div *ngIf="f['passwordConfirm'].errors!['required']">{{'password is required' | translate | titlecase}}</div>
+                <div *ngIf="f['passwordConfirm'].errors!['confirmedValidator']">{{'password must be matched' | translate | titlecase}}</div>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary log-btn" [disabled]="formData.invalid">{{'sign up' | translate | titlecase}}</button>
+        </form>
+        <div class="text-center or-block">
+            <span class="or d-flex">{{'or' | translate | titlecase}}</span>
+        </div>
+        <div class="w-100">
+            <a routerLink="/login"><button type="button" class="btn btn-outline-dark w-100 round-btn">{{'sign in' | translate | titlecase}}</button></a>
+        </div>
+    </div>
+</div>
